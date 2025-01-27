@@ -14,8 +14,11 @@ const session = await RawSession.fromHuggingFace(
   },
 );
 
+console.log({ session });
+
 Deno.serve(async (req: Request) => {
   const carsBatchInput = await req.json();
+  console.log("input", carsBatchInput);
 
   // Parsing objects to tensor input
   const inputTensors = {};
@@ -29,6 +32,7 @@ Deno.serve(async (req: Request) => {
   });
 
   const { emissions } = await session.run(inputTensors);
+  console.log("output", { emissions });
 
   return Response.json({ result: emissions }); // [ 289.01, 199.53]
 });

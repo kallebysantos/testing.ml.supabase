@@ -6,7 +6,7 @@
     "Fuel_Consumption_in_City": 13.9,
     "Fuel_Consumption_in_City_Hwy": 10.3,
     "Fuel_Consumption_comb": 12.3,
-    "Smog_Level": 3,
+    "Smog_Level": 3
   },
   {
     "Model_Year": 2023,
@@ -15,6 +15,6 @@
     "Fuel_Consumption_in_City": 9.9,
     "Fuel_Consumption_in_City_Hwy": 7.0,
     "Fuel_Consumption_comb": 8.6,
-    "Smog_Level": 3,
+    "Smog_Level": 3
   }
 ]
