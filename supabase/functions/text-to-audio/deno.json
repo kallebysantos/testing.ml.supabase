@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "inference-api": "../_shared/inference-api.js"
+  }
+}

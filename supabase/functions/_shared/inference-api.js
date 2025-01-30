@@ -1,6 +1,6 @@
 const { InferenceSession, Tensor } = globalThis[Symbol.for("onnxruntime")];
 
-const DEFAULT_HUGGING_FACE_OPTIONS = {
+export const DEFAULT_HUGGING_FACE_OPTIONS = {
   hostname: "https://huggingface.co",
   path: {
     template: "{REPO_ID}/resolve/{REVISION}/onnx/{MODEL_FILE}?donwload=true",
